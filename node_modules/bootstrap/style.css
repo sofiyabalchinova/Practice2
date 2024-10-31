@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.4px;
+    color:#2A254B;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    color: #22202E;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    color:#2A254B;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2A254B;
+}
+
+.main-card-subtitle{
+    margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #5B5676;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.52px;
+    color:#22202E;
+    cursor: pointer;
+}
+
+.vector-menu{
+    width: 28px;
+    cursor: pointer;
+}
+
+.line-menu{
+    width: 98%;
+    border-top: 1px solid #22202E;
+    opacity: 20%;
+    margin-left: 20px;
+}
+
+.txt-menu{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #726E8D;
+    cursor: pointer;
+
+}
+
+.txt-large{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #2A254B;
+}
+
+.txt-medium{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2A254B;
+    cursor: pointer;
+}
+
+.txt-sm{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #726E8D;
+}
+
+.txt-sm-2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #ffff;
+}
+
+.txt-white{
+    color:#fff;
+}
+
+.txt-black{
+    color:#22202E;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.otstup{
+    margin: 0 280px 0 280px;
+
+}
+
+.otstup-2{
+    margin: 0 300px 0 300px;
+
+}
+
+.otstup-blocks{
+    margin: 0 50px 0 50px;
+
+}
+
+.otstup-footer{
+    margin: 0 120px 0 120px;
+
+}
+
+.sharp-angle{
+    border-radius: 0;
+}
+
+.btn-shop {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:#F9F9F9;
+    --bs-btn-border-color: #F9F9F9;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: gray;
+    --bs-btn-hover-border-color: gray;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: gray;
+    --bs-btn-active-border-color: gray;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #F9F9F9;
+    --bs-btn-disabled-border-color: #F9F9F9;
+}
+
+.btn-shop-2 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:#F9F9F9;
+    --bs-btn-border-color: #F9F9F9;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2A254B;
+    --bs-btn-hover-border-color: #2A254B;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #2A254B;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #2A254B;
+    --bs-btn-disabled-border-color: #F9F9F9;
+}
+
+.btn-sign-up{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #2A254B;
+    --bs-btn-border-color: #2A254B;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2A254B;
+    --bs-btn-hover-border-color: #0000;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0000;
+    --bs-btn-active-border-color: #0000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #2A254B;
+    --bs-btn-disabled-border-color: #2A254B;
+}
+
+.card-body-lg {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+  }
+
+.card-img{
+    height: 704px;
+}
+
+.bg-gray{
+    background-color: #F9F9F9;
+    border: 0;
+}
+
+.bg-blue{
+    background-color: #2A254B;
+    border: 0;
+}
+
+.product{
+    width: 100%;
+}
+
+.photo{
+    width: 100%;
+}
+
+.photo-2{
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otstup-btn{
+    margin: 0 400px 0 400px;
+    padding: 10px;
+}
+
+.card-height{
+    height: 100%;
+}
+
+.col-767px-none{
+    flex: 1 0 0%;
+}
+
+.img-bg{
+    background-image: url("./bae4257d89397ead63485f276489b3fa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    background-color: #2A254B;
+}
+
+@media (max-width: 1600px){
+    .nav-item{
+        display: none;
+    }
+    .collection-768px{
+        display: none;
+    }
+    .row-767px{
+        display: none;
+    }
+    .column-767px{
+        display: none;
+    }
+    .block-992px{
+        display: none;
+    }
+}
+
+@media (max-width: 1195px){
+    .card-height{
+        height: 91%;
+    }
+}
+
+@media (max-width: 1130px){
+    .otstup{
+        margin: 0 50px 0 50px;
+    }
+    .collection-768px{
+        display: none;
+    }
+    .block-992px{
+        display: none;
+    }
+}   
+
+@media (max-width: 992px){
+    .nav-item{
+        display: flex;
+    }
+    .vector-menu{
+        display: none;
+    }
+    .txt-menu{
+        display: none;
+    }
+    .line-menu{
+        display: none;
+    }
+    .otstup-btn{
+        margin: 0 350px 0 350px;
+    }
+    .otstup-2{
+        margin: 0;
+    }
+    .main-block{
+        display: none;
+    }
+    .block-992px{
+        display: flex;
+    }
+    .d-flex-992px{
+        display: flex;
+    }
+}
+
+@media (max-width: 991px){
+    .product-991px{
+        height: 91%;
+    }
+} 
+
+@media (max-width: 768px){
+    .card-body-lg{
+        display: none;
+    }
+    .card-img{
+        width: 100%;
+        height: 100%;
+    }
+    .collection-768px{
+        display: flex;
+        flex-direction: column;
+    }
+    .otstup-btn{
+        margin: 0 200px 0 200px;
+    }
+}
+
+@media (max-width: 767px){
+    .column-767px{
+        display: flex;
+        flex-direction: column;
+    }
+    .row-767px{
+        display: flex;
+        flex-direction: row;
+    }
+    .product-991px{
+        display: none;
+    }
+    .card-height{
+        width: 100%;
+    }
+    .col-767px-none{
+        display: none;
+    }
+} 
+
+@media (max-width: 575px){
+    .product{
+        width: 60%;
+    }
+    .otstup-blocks-559px{
+         margin: 0 50px 0 50px;
+    } 
+}   
+
+@media (max-width: 559px){
+    .product{
+        width: 60%;
+    }
+}
+
+@media (max-width: 375px){
+    .otstup-btn{
+        margin: 0 100px 0 100px;
+    }
+}
